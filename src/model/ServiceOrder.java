@@ -1,68 +1,59 @@
 package model;
 
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-
 public class ServiceOrder {
     int nodeHeight;
     ServiceOrder left, right;
 
-    private int id;
+    private int code;
     private String name;
     private String client;
-
     private String description;
+    private final long requestTime;
 
-    private LocalTime requestTime;
-    private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
-
-    public ServiceOrder(int id, String name, String client, String description) {
-        this.id = id;
-        this.name = name;
-        this.client = client;
-        this.description = description;
-        this.requestTime = LocalTime.now();
-    }
-
-    public ServiceOrder(int id, String name, String client, String description, LocalTime requestTime) {
-        this.id = id;
+    public ServiceOrder(int code, String name, String client, String description, long requestTime) {
+        this.code = code;
         this.name = name;
         this.client = client;
         this.description = description;
         this.requestTime = requestTime;
     }
 
-    public ServiceOrder() {}
+    public ServiceOrder(String name, String client, String description) {
+        this.name = name;
+        this.client = client;
+        this.description = description;
+        this.requestTime = System.currentTimeMillis();
+    }
 
-    public void show() {
-        System.out.println("Id: " + getId());
-        System.out.println("Name: " + getName());
-        System.out.println("Client: " + getClient());
-        System.out.println("Description: " + getDescription());
-        System.out.println("Request Time: " + getRequestTime().format(formatter));
+    public void setHashCode(){
+        this.code = serviceOrderHash();
     }
 
     public void listShow() {
-        System.out.print("  Id: " + getId() + "  |  ");
+
+        String requestMin = String.valueOf((requestTime / (1000 * 60)) % 60); // Get minutes
+        String requestHour = String.valueOf((requestTime / (1000 * 60 * 60)) % 24); // Get minutes
+
+        System.out.print("  Code: " + getCode() + "  |  ");
         System.out.print("Name: " + getName() + "  |  ");
         System.out.print("Client: " + getClient() + "  |  ");
         System.out.print("Description: " + getDescription() + "  |  ");
-        System.out.println("Request Time: " + getRequestTime().format(formatter));
+        System.out.println("Request Time: " + requestHour + ":" + requestMin);
     }
 
     @Override
     public String toString() {
         String toString;
-        toString = getId() + ";" + getName() + ";" + getClient() + ";" + getDescription() + ";" + getRequestTime() + "\n";
+        toString = getCode() + ";" + getName() + ";" + getClient() + ";" + getDescription() + ";" + getRequestTime() + "\n";
         return toString;
     }
 
-    public int getId() {
-        return id;
+    public int getCode() {
+        return code;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setCode(int code) {
+        this.code = code;
     }
 
     public String getName() {
@@ -89,8 +80,28 @@ public class ServiceOrder {
         this.description = description;
     }
 
-    public LocalTime getRequestTime() {
+    public long getRequestTime() {
         return requestTime;
     }
 
+    @Override
+    public int hashCode(){
+        return serviceOrderHash();
+    }
+
+    // Hash function using requestTime and name of the serviceOrder
+    private int serviceOrderHash() {
+
+        long requestSec = (requestTime / 1000) % 60; // Get seconds
+        long requestMin = (requestTime / (1000 * 60)) % 60; // Get minutes
+
+        // Transforms the name to a numeric value based on a sum of ASCII values of the characters
+        int nameValue = 0;
+        for (char c : name.toCharArray()) {
+            nameValue += c;
+        }
+
+        int hash = (int) (requestSec * 31 + requestMin * 17 + nameValue);
+        return hash;
+    }
 }

@@ -1,0 +1,65 @@
+1552;System Configuration Verification;Bruno Nascimento;Verify system configuration;1612312381234
+4312;Power Supply Replacement;Tatiane Rocha;Replace power supply;1587312393456
+2995;Maintenance Visit;Carlos Silva;Update software version;1565312380123
+3424;Troubleshooting Call;Maria Oliveira;Inspect network connectivity;1738312245321
+2934;Remote Access Support;Gabriela Costa;Assist with remote access;1738312391234
+1098;Device Setup;Tatiane Souza;Assist with device setup;1716312381234
+3640;Data Recovery Assistance;Rafael Almeida;Assist with data recovery;1642312380123
+7410;User Permissions Check;Ricardo Ferreira;Check user permissions;1598312390123
+7534;User Experience Evaluation;Sabrina Rocha;Evaluate user experience;1625312381234
+9823;User Interface Upgrade;Patrícia Mendes;Upgrade user interface;1504312394567
+3321;Cable Organization;Thiago Mendes;Clean and organize cables;1712312386789
+9162;End-of-Life Assessment;Karina Silva;Conduct end-of-life assessment;1602312391456
+2354;App Installation Help;Natália Ferreira;Assist with app installation;1537312390123
+8901;Documentation Update;Eliane Rocha;Update system documentation;1589312390123
+4735;Backup Procedure Review;Sérgio Silva;Review backup procedures;1678312384567
+2274;Installation Service;Ana Clara;Replace broken antenna;1627312381245
+3942;Storage Upgrade;Rita Almeida;Upgrade storage capacity;1714312395678
+6981;Connectivity Check;Lúcia Dias;Troubleshoot connectivity issues;1562312384567
+2954;Training Session;Jéssica Rocha;Provide training on device usage;1552312391234
+1684;Audio Test;Marcos Almeida;Test audio output;1602312387654
+7382;Upgrade Evaluation;Léo Silva;Evaluate potential upgrades;1678312394567
+6610;Indoor Wiring Inspection;Luiz Almeida;Inspect indoor wiring;1758312386789
+3080;Signal Check;Fernanda Lima;Check signal strength;1745612381456
+3485;Hardware Upgrade;André Ribeiro;Upgrade hardware components;1737312244321
+5781;User Manual Update;Daniel Nascimento;Update user manual;1745312381234
+7456;System Diagnostics;Victor Martins;Perform system diagnostics;1564312388901
+8034;Battery Replacement;Patrícia Santos;Replace batteries in devices;1627312381234
+4325;Repair Service;Lucas Ferreira;Repair HDMI connection;1642312399870
+7823;Overheating Check;Samuel Almeida;Check for overheating;1592312396789
+3124;Parts Replacement;Luana Lima;Replace worn-out parts;1664312386789
+7246;Warranty Verification;Mariana Ferreira;Verify warranty status;1587312398910
+4681;Performance Optimization;Marcos Oliveira;Optimize settings for performance;1576312384321
+2903;Backup System Test;Maria Clara;Test backup systems;1725312387890
+8203;Setting Adjustment;Beatriz Santos;Adjust receiver settings;1512312382345
+1198;Remote Control Replacement;Cíntia Santos;Replace remote control;1736312390123
+1850;Reset Service;Renata Lima;Reset device to factory settings;1674312382345
+4502;Streaming Support;Rafael Lima;Assist with streaming services;1598312396789
+7295;Firmware Compatibility Check;Vinícius Pereira;Check for firmware compatibility;1642312387890
+2573;Performance Metrics Analysis;Matheus Almeida;Analyze performance metrics;1724312381234
+4315;Quality Assessment;Ricardo Pereira;Test video quality;1534312380123
+3748;System Integration Evaluation;Felipe Santos;Evaluate system integration;1624312386789
+2876;Cable Replacement;Gustavo Nascimento;Replace faulty cables;1698312386789
+3763;Technical Support;José de Maria;Fix issue with the receiver;1727312245323
+5742;Network Configuration;Sofia Martins;Configure wireless settings;1624312393456
+6321;Device Compatibility Check;Angela Dias;Check compatibility with new devices;1552312395678
+2598;Network Settings Configuration;Tatiane Ferreira;Configure network settings;1628312380123
+4659;Network Adapter Replacement;Guilherme Lima;Replace network adapter;1604312387890
+9440;Installation Procedure Review;Eduarda Costa;Review installation procedures;1738312398765
+1403;Cleaning Service;Paulo Mendes;Clean device components;1712312391234
+6810;User Interface Inspection;Debora Lima;Inspect user interface;1664312386789
+1886;Troubleshooting Assistance;Simone Almeida;Assist with troubleshooting;1547312383456
+1195;Security Patch Installation;Lívia Ferreira;Install security patches;1738312392345
+5291;Security Feature Setup;Cristian Dias;Set up security features;1587312390123
+2319;Inspection Visit;Juliana Santos;Inspect outdoor equipment;1728312249876
+8147;Peripheral Testing;Isabel Dias;Test peripheral devices;1684312398765
+5098;Firmware Update;Victor Hugo;Install firmware update;1634312397890
+2568;Power Source Inspection;Júlio Costa;Inspect power source;1556312383456
+3784;Outdoor Wiring Inspection;Tânia Santos;Inspect outdoor wiring;1675312394567
+9247;Software Diagnosis;Eduardo Silva;Diagnose software conflicts;1627312382345
+3282;Calibration Session;Roberto Santos;Calibrate satellite dish;1654312388431
+2653;Installation Quality Check;Felipe Rocha;Inspect installation quality;1652312394567
+9345;Compatibility Check;Larissa Almeida;Check compatibility issues;1624312385678
+4762;Maintenance Review;Camila Costa;Perform routine maintenance;1748312394567
+3657;Setup Assistance;Juliana Costa;Install new router;1709312241234
+4892;Log Review;Bruno Martins;Check system logs;1756312390123

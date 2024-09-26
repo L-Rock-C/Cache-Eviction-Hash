@@ -1,5 +1,7 @@
 package app;
 
+import control.ServiceOrderController;
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -7,6 +9,8 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         Scanner input = new Scanner(System.in);
+
+        ServiceOrderController SOController = new ServiceOrderController();
 
         int choice;
         boolean on = true;
@@ -17,22 +21,22 @@ public class Main {
             choice = input.nextInt();
             switch (choice){
                 case 1:
-                    //SOController.serviceOrdersList();
+                    SOController.serviceOrdersList();
                     break;
                 case 2:
-                    //SOController.serviceOrderView();
+                    SOController.serviceOrderView();
                     break;
                 case 3:
-                    //SOController.serviceOrderEdit();
+                    SOController.serviceOrderEdit();
                     break;
                 case 4:
-                    //SOController.serviceOrderForm();
+                    SOController.serviceOrderForm();
                     break;
                 case 5:
-                    //SOController.serviceOrderDelete();
+                    SOController.serviceOrderDelete();
                     break;
                 case 6:
-                    //SOController.getCache().printCache();
+                    SOController.getCache().printCache();
                     break;
                 case 7:
                     on = false;
@@ -48,7 +52,7 @@ public class Main {
         System.out.println("------- Service Order Menu --------\n");
 
         System.out.println("[1] - List Service Orders");
-        System.out.println("[2] - View Service Orders");
+        System.out.println("[2] - View Service Order");
         System.out.println("[3] - Edit Service Order");
         System.out.println("[4] - Sign Service Order");
         System.out.println("[5] - Delete Service Order");
